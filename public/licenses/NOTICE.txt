@@ -1,0 +1,17 @@
+EPD Optimize 1.3.0
+https://github.com/paperlesspaper/epdoptimize/tree/v1.3.0
+Copyright 2025 Robert Gühne
+Apache License 2.0: epdoptimize-1.3.0.txt
+The published upstream implementation is used without modification.
+
+OpenDisplay epaper-dithering 6.1.1
+https://github.com/OpenDisplay/epaper-dithering/tree/epaper-dithering-v6.1.1
+Copyright 2026 OpenDisplay.org
+MIT License: opendisplay-6.1.1.txt
+The published upstream implementation is used without modification.
+
+RgbQuant.js 1.1.2
+https://github.com/alexharris/RgbQuant.js
+Copyright 2017 Leon Sorokin
+MIT License: rgbquant.txt
+Included by EPD Optimize.

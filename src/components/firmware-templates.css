@@ -1,0 +1,25 @@
+.firmware-cover-graphic { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 100%; color: #82926f; }
+.firmware-cover-graphic > svg { flex-shrink: 0; }
+.firmware-cover-graphic > b { margin-top: 12px; font-size: 11px; font-weight: 500; }
+.firmware-cover-graphic > small { margin-top: 6px; color: #9aa58d; font-size: 9px; line-height: 1.5; }
+.library-tone-sand .firmware-cover-graphic { color: #9b9275; }
+.library-tone-sand .firmware-cover-graphic > small { color: #aba28a; }
+[data-slot="dialog-content"].firmware-template-dialog { gap: 14px; width: min(450px, calc(100vw - 32px)); max-width: none; max-height: calc(100dvh - 32px); padding: 20px; overflow-y: auto; border: 1px solid var(--border); }
+.firmware-template-dialog [data-slot="dialog-header"] { gap: 8px; }
+.firmware-template-dialog [data-slot="dialog-title"] { font-size: 18px; line-height: 1.3; }
+.firmware-template-dialog [data-slot="dialog-description"] { color: var(--muted-foreground); font-size: 11px; line-height: 1.9; }
+.firmware-dialog-state { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 10px; }
+.firmware-dialog-state > b { color: var(--primary); font-weight: 500; }
+.firmware-dialog-state > span:last-child { margin-left: auto; color: var(--muted-foreground); font-size: 9px; }
+.firmware-state-dot { width: 5px; height: 5px; border-radius: 50%; background: #bac3ae; }
+.firmware-state-dot.online { background: #7b975b; box-shadow: 0 0 0 3px #7b975b13; }
+.firmware-dialog-features { display: flex; flex-wrap: wrap; gap: 6px; }
+.firmware-dialog-features > span { padding: 5px 8px; border: 1px solid var(--border); border-radius: 5px; color: var(--muted-foreground); font-size: 10px; }
+.firmware-week-field { display: flex; align-items: center; justify-content: space-between; gap: 14px; font-size: 11px; }
+.firmware-week-field > span { display: flex; align-items: center; gap: 7px; color: var(--primary); }
+.firmware-week-field [data-slot="select-trigger"] { width: 125px; font-size: 11px; }
+.firmware-dialog-notes { display: flex; align-items: flex-start; gap: 8px; padding-top: 10px; border-top: 1px solid var(--border); color: var(--muted-foreground); }
+.firmware-dialog-notes > svg { flex-shrink: 0; margin-top: 2px; }
+.firmware-dialog-notes > p { margin: 0; font-size: 10px; line-height: 1.9; }
+.firmware-dialog-actions { display: flex; justify-content: flex-end; gap: 8px; padding-top: 2px; }
+.firmware-dialog-actions > button { font-size: 11px; }

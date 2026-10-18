@@ -1,0 +1,112 @@
+{
+  "fonts": [
+    {
+      "id": "pixel-12",
+      "family": "Epd Fusion Pixel 12",
+      "project": "Fusion Pixel Font",
+      "version": "2026.10.16",
+      "asset": "fusion-pixel-12px-proportional-zh_hans-2026.10.16.woff2",
+      "sha256": "037fb51624ec39500a6be28f7eac4aa6a8c9366205b2344dd2b4f182879519ce",
+      "source": "https://github.com/TakWolf/fusion-pixel-font/releases/download/2026.10.16/fusion-pixel-font-12px-proportional-otf.woff2-v2026.10.16.zip",
+      "archiveEntry": "fusion-pixel-12px-proportional-zh_hans.otf.woff2",
+      "license": "OFL-1.1",
+      "licenseFiles": [
+        "fusion-pixel-2026.10.16/OFL.txt",
+        "fusion-pixel-2026.10.16/ark-pixel-OFL.txt",
+        "fusion-pixel-2026.10.16/cubic-11-OFL.txt",
+        "fusion-pixel-2026.10.16/galmuri-LICENSE.txt"
+      ]
+    },
+    {
+      "id": "pixel-16",
+      "family": "Epd RoundPix 16",
+      "project": "Z Labs RoundPix 16px",
+      "version": "Build_20260501",
+      "asset": "ZLabsRoundPix_16px_M_CN-Build_20260501.woff2",
+      "sha256": "6e0fa9f138aec0745929b8d1ed285575b25daa975537544213f01a6431ac7143",
+      "source": "https://github.com/Astro-2539/ZLabs-RoundPix-16px/releases/download/Build_20260501/ZLabsRoundPix_16px_M_CN.ttf.woff2",
+      "license": "OFL-1.1",
+      "licenseFiles": [
+        "roundpix-Build_20260501/OFL.txt"
+      ]
+    },
+    {
+      "id": "pixel-silkscreen",
+      "family": "Epd Silkscreen 8",
+      "project": "Silkscreen",
+      "version": "1.001",
+      "asset": "Silkscreen-Regular.ttf",
+      "sha256": "c845473330b94c2079ce9af01c51ac8ba2d99c24f4d14c039843bbb8e642ebd8",
+      "source": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/silkscreen/Silkscreen-Regular.ttf",
+      "sourceCommit": "47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "nativeSize": 8,
+      "weight": 400,
+      "license": "OFL-1.1",
+      "licenseFiles": [
+        "silkscreen-1.001/OFL.txt"
+      ],
+      "licenseSha256": "86c5e9c9382cdcc5948704fdfe60f2aa164a719746931219a42736ecd9cefbd3",
+      "licenseSource": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/silkscreen/OFL.txt",
+      "gridEvidence": {
+        "source": "https://kottke.org/plus/type/silkscreen/",
+        "unitsPerEm": 1000,
+        "unit": 125.0,
+        "asciiStrict": false,
+        "note": "主网格125单位，advance和LSB严格对齐；少量轮廓点有5单位微调，8px时偏离0.04px。不是全轮廓严格整数网格。作者旧图形软件文档写8pt倍数；本文件8px主网格由坐标核验。"
+      }
+    },
+    {
+      "id": "pixel-press-start",
+      "family": "Epd Press Start 8",
+      "project": "Press Start 2P",
+      "version": "3.000",
+      "asset": "PressStart2P-Regular.ttf",
+      "sha256": "034c77f1f05ec89421e4a63f0e3a4ca1ecf852cc6d2bf611f126f275728e017d",
+      "source": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/pressstart2p/PressStart2P-Regular.ttf",
+      "sourceCommit": "47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "nativeSize": 8,
+      "weight": 400,
+      "license": "OFL-1.1",
+      "licenseFiles": [
+        "press-start-2p-3.000/OFL.txt"
+      ],
+      "licenseSha256": "705960c3281a5765ecc0b59bd4ed7ca59eed165748076bc2fc3e8fdbfeb944b0",
+      "licenseSource": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/pressstart2p/OFL.txt",
+      "gridEvidence": {
+        "source": "https://github.com/google/fonts/blob/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/pressstart2p/FONTLOG.txt",
+        "unitsPerEm": 1000,
+        "unit": 125.0,
+        "asciiStrict": true,
+        "note": "ASCII轮廓、advance与LSB均为125单位整数倍，UPM1000推导8px；官方FONTLOG同样明确8px倍数。扩展字符含偏离网格的字形，严格结论限定ASCII。"
+      },
+      "noticeFiles": [
+        "press-start-2p-3.000/FONTLOG.txt"
+      ]
+    },
+    {
+      "id": "pixel-tiny5",
+      "family": "Epd Tiny5 8",
+      "project": "Tiny5",
+      "version": "1.002",
+      "asset": "tiny5-Regular.ttf",
+      "sha256": "5adcf2813ac7e2a061bdc7430042b1d99862d0732d8de8657bbdab6671e19d6d",
+      "source": "https://raw.githubusercontent.com/Gissio/font_Tiny5/f32b609bad9e991c3ba5b70b5f516943e30d568e/fonts/ttf/tiny5-Regular.ttf",
+      "sourceCommit": "f32b609bad9e991c3ba5b70b5f516943e30d568e",
+      "nativeSize": 8,
+      "weight": 400,
+      "license": "OFL-1.1",
+      "licenseFiles": [
+        "tiny5-1.002/OFL.txt"
+      ],
+      "licenseSha256": "6fe7d64407c69d187748206265977654747d3e2fe9e38e45a62cd03ec4770df6",
+      "licenseSource": "https://raw.githubusercontent.com/Gissio/font_Tiny5/f32b609bad9e991c3ba5b70b5f516943e30d568e/OFL.txt",
+      "gridEvidence": {
+        "source": "https://github.com/Gissio/font_Tiny5/blob/f32b609bad9e991c3ba5b70b5f516943e30d568e/README.md",
+        "unitsPerEm": 1024,
+        "unit": 128.0,
+        "asciiStrict": true,
+        "note": "固定官方tag1.002静态400版本；ASCII轮廓、advance与LSB均为128单位整数倍，UPM1024推导8px。5表示字形高度不是CSS字号；不采用当前多轴变量版。"
+      }
+    }
+  ]
+}

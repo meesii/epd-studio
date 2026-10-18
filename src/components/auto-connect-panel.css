@@ -1,0 +1,14 @@
+.device-auto-row { align-items: center; }
+.device-auto-status { display: flex; align-items: flex-start; gap: 6px; margin-top: 5px; color: var(--muted-foreground); font-size: 11px; line-height: 1.7; }
+.device-auto-status > svg { flex-shrink: 0; margin-top: 3px; }
+.device-auto-status small { display: inline-block; margin-left: 8px; font-size: 10px; color: var(--muted-foreground); }
+.device-auto-status.is-connected { color: #678054; }
+.device-auto-status.is-unsupported, .device-auto-status.is-unavailable { color: #a1864f; }
+.device-auto-controls { display: flex; align-items: center; flex-shrink: 0; gap: 14px; }
+.device-auto-controls button:not([role="switch"]) { height: 28px; padding: 0 8px; font-size: 10px; }
+@media (max-width: 560px) {
+    .device-auto-row { flex-wrap: wrap; }
+    .device-auto-row > .device-setting-copy { min-width: 190px; }
+    .device-auto-controls { margin-left: auto; gap: 10px; }
+    .device-auto-status small { display: block; margin-left: 0; }
+}

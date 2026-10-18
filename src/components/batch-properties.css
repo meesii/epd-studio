@@ -1,0 +1,8 @@
+.batch-properties { min-width: 0; margin: 18px 0 0; padding: 14px 0 0; border: 0; border-top: 1px solid var(--border); }
+.batch-properties > legend { padding-right: 8px; color: var(--foreground); font-size: 11px; font-weight: 500; }
+.batch-properties > legend span { margin-left: 5px; color: var(--muted-foreground); font-size: 10px; font-weight: 400; }
+.batch-properties .field-label { position: relative; }
+.batch-mixed { position: absolute; top: 0; right: 0; color: var(--muted-foreground); font-weight: 400; }
+.batch-render-settings { margin-top: 12px; }
+.canvas-align-target { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 8px; color: var(--muted-foreground); font-size: 10px; }
+.canvas-align-target [data-slot="select-trigger"] { width: 104px; min-height: 29px; font-size: 11px; }

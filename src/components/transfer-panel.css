@@ -1,0 +1,56 @@
+.transfer-records-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.transfer-records-heading h1 { margin: 0; font-size: 20px; }
+.transfer-records-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+.transfer-records-actions > button { font-size: 12px; }
+.transfer-records-summary { margin: 0 0 12px; color: var(--muted-foreground); font-size: 12px; }
+.transfer-history-scroll { overflow: auto; border: 1px solid var(--border); border-radius: 8px; background: var(--card); }
+.transfer-history-table { width: 100%; min-width: 640px; border-collapse: collapse; text-align: left; font-size: 12px; }
+.transfer-history-table th { padding: 10px 12px; color: var(--muted-foreground); background: var(--muted); font-size: 11px; font-weight: 500; }
+.transfer-history-table td { padding: 10px 12px; border-top: 1px solid var(--border); vertical-align: middle; }
+.transfer-history-table small { display: block; color: var(--muted-foreground); font-size: 10px; line-height: 1.5; margin-top: 3px; }
+.transfer-history-work b { display: block; max-width: 240px; overflow: hidden; font-weight: 500; white-space: nowrap; text-overflow: ellipsis; }
+.transfer-history-time { white-space: nowrap; color: var(--muted-foreground); font-size: 11px; }
+.transfer-history-result { min-width: 150px; }
+.transfer-history-result small { overflow-wrap: anywhere; }
+.transfer-history-result [data-slot="badge"] { font-size: 10px; }
+.transfer-history-table .transfer-history-empty { padding: 28px 12px; color: var(--muted-foreground); text-align: center; }
+.transfer-history-scroll:has(.transfer-history-empty) .transfer-history-table { min-width: 0; }
+.transfer-history-scroll:has(.transfer-history-empty) thead { display: none; }
+.transfer-records-note { margin: 10px 0 0; color: var(--muted-foreground); font-size: 11px; }
+.transfer-task-button { display: inline-flex; align-items: center; gap: 7px; padding: 6px 9px; border: 1px solid var(--border); border-radius: 6px; color: var(--foreground); background: var(--muted); font-size: 11px; white-space: nowrap; cursor: pointer; }
+.transfer-task-button b { font-family: var(--font-mono); font-size: 11px; }
+.transfer-task-button.failed { color: var(--destructive); }
+.transfer-window { gap: 16px; max-width: min(420px, calc(100vw - 32px)); padding: 18px; }
+.transfer-window [data-slot="dialog-header"] { padding-right: 32px; }
+.transfer-window [data-slot="dialog-title"] { font-size: 16px; }
+.transfer-window [data-slot="dialog-description"] { overflow-wrap: anywhere; font-size: 12px; }
+.transfer-window [data-slot="dialog-footer"] button { font-size: 12px; }
+.transfer-minimize { position: absolute; top: 12px; right: 12px; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 5px; color: var(--muted-foreground); cursor: pointer; }
+.transfer-minimize:hover { background: var(--muted); color: var(--foreground); }
+.transfer-dialog { padding: 0; }
+.transfer-progress-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; color: var(--foreground); font-size: 12px; }
+.transfer-progress-title b { font-weight: 500; }
+.transfer-detail { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: var(--muted-foreground); font-size: 10px; margin-top: 8px; }
+.transfer-detail > span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.transfer-detail > span:last-child { flex-shrink: 0; }
+.transfer-note { margin: 12px 0 0; color: var(--muted-foreground); font-size: 11px; line-height: 1.5; }
+.transfer-error { margin: 10px 0 0; color: var(--destructive); font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
+.transfer-dock { position: fixed; right: max(20px, calc((100vw - var(--app-width)) / 2 + 20px)); bottom: 20px; z-index: 40; width: min(320px, calc(100vw - 32px)); padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--card); box-shadow: 0 4px 20px #00000014; }
+.transfer-dock-heading { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.transfer-dock-icon { display: grid; place-items: center; flex-shrink: 0; width: 24px; height: 24px; color: var(--muted-foreground); }
+.transfer-dock-heading > div { min-width: 0; flex: 1; }
+.transfer-dock-heading b { display: block; overflow: hidden; color: var(--foreground); font-size: 12px; font-weight: 500; text-overflow: ellipsis; white-space: nowrap; }
+.transfer-dock-heading small { display: block; overflow: hidden; margin-top: 2px; color: var(--muted-foreground); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.transfer-dock-heading button { display: grid; place-items: center; flex-shrink: 0; width: 24px; height: 28px; color: var(--muted-foreground); cursor: pointer; }
+.transfer-dock-heading button:hover { color: var(--foreground); background: var(--muted); border-radius: 4px; }
+.transfer-dock-status { display: flex; justify-content: space-between; gap: 8px; margin-bottom: 8px; color: var(--muted-foreground); font-size: 11px; }
+.transfer-dock-status b { color: var(--foreground); font-family: var(--font-mono); }
+.transfer-dock [data-slot="progress"] { height: 4px; }
+.transfer-dock-speed { display: block; margin-top: 5px; color: var(--muted-foreground); font-size: 10px; }
+.transfer-dock.failed .transfer-dock-icon { color: var(--destructive); }
+.transfer-task-button:focus-visible, .transfer-window button:focus-visible, .transfer-dock button:focus-visible, .transfer-history-scroll:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+@media (max-width: 850px) {
+    .transfer-task-button span { display: none; }
+    .transfer-task-button { gap: 5px; padding: 6px 8px; }
+    .transfer-dock { bottom: 16px; right: 16px; }
+}

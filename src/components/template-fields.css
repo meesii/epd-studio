@@ -1,0 +1,21 @@
+[data-slot="dialog-content"].template-fields-dialog { display: flex; flex-direction: column; gap: 14px; width: min(680px, calc(100vw - 32px)); max-width: none; max-height: calc(100dvh - 32px); overflow: hidden; }
+.template-fields-scope { display: flex; flex-wrap: wrap; gap: 8px; }
+.template-fields-hint { color: var(--muted-foreground); font-size: 11px; line-height: 1.7; }
+.template-fields-list { min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 1px 4px 1px 1px; }
+.template-field { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.template-field:first-child { padding-top: 0; }
+.template-field:last-child { border-bottom: 0; }
+.template-field > .field-label { margin-bottom: 0; }
+.template-field-label { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.template-field-label > b { color: var(--foreground); font-weight: 500; }
+.template-field-label > span, .template-field-label > span > span { display: inline-flex; align-items: center; gap: 5px; }
+.template-field-label > span { gap: 10px; color: var(--muted-foreground); font-size: 10px; }
+.template-field-warning { margin-top: 6px; color: var(--destructive); font-size: 11px; line-height: 1.6; }
+.template-fields-trigger:disabled { opacity: .5; cursor: not-allowed; }
+.wifi-fields { margin-top: 9px; font-size: 11px; }
+.wifi-fields-toggle { display: flex; align-items: center; gap: 6px; width: fit-content; height: auto; padding: 0; cursor: pointer; color: var(--muted-foreground); font-size: inherit; font-weight: inherit; }
+.wifi-fields-toggle:hover { color: var(--foreground); }
+.wifi-fields-form { display: grid; gap: 10px; padding: 12px; margin-top: 9px; border: 1px solid var(--border); border-radius: 6px; background: var(--muted); }
+.wifi-fields-form .field-label { margin: 0; }
+.wifi-fields-form > button { justify-self: start; }
+.wifi-hidden { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--muted-foreground); }
